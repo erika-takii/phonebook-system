@@ -1,29 +1,17 @@
 # Phonebook Management System in C
 A clean implementation of phonebook management system demonstrating core C programming skills.
 
-## Project Structure
-phonebook_project/
-├── include/
-│ └── phonebook.h # Public interface declarations
-├── src/
-│ ├── phonebook.c # Core implementation
-│ └── main.c # Application entry point
-└── tests/
-├── test1.c # Unit tests (basic operations)
-└── test2.c # Integration tests (full workflow)
-
-
 ## How to Build
-# Compile main application
+### Compile main application
 gcc src/main.c src/phonebook.c -o phonebook
 
-# Run program
+### Run program
 ./phonebook
 
-# Compile and run test1 (basic functionality)
+### Compile and run test1 (basic functionality)
 gcc tests/test1.c src/phonebook.c -o test1 && ./test1
 
-# Compile and run test2 (extended features)
+### Compile and run test2 (extended features)
 gcc tests/test2.c src/phonebook.c -o test2 && ./test2
 
 ## Key Features
